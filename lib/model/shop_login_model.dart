@@ -9,7 +9,7 @@ class ShopLoginModel{
     message= json['message'];
     data= json['data'] != null? UserData.fromJson(json['data']): null;
   }
-
+// test
 }
 
 class UserData {
